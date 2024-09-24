@@ -35,6 +35,36 @@ a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  font-size: 30px;
+  background-color: antiquewhite;
+}
+
+.nav-link {
+  padding: 0 30px;
+  margin: 7px;
+}
+
+.post-card {
+  width: 70%;
+  background-color:bisque;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
